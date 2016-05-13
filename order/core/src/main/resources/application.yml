@@ -1,0 +1,23 @@
+server:
+  port: 13102
+
+spring:
+  application:
+    name: order
+    index: 0
+
+# Discovery Server Access
+eureka:
+  instance:
+    # hostname: localhost
+    preferIpAddress: true
+
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+
+
+
+
+

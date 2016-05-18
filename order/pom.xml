@@ -4,7 +4,6 @@
 
     <artifactId>order-service</artifactId>
     <modules>
-        <module>api</module>
         <module>core</module>
     </modules>
     <packaging>pom</packaging>

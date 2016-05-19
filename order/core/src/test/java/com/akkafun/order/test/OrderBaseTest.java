@@ -1,11 +1,13 @@
 package com.akkafun.order.test;
 
-import com.akkafun.common.test.BaseTest;
+import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
  * Created by liubin on 2016/3/29.
  */
 @SpringApplicationConfiguration(classes = TestOrderApplication.class)
-public abstract class OrderBaseTest extends BaseTest{
+@RunWith(SpringJUnit4ClassRunner.class)
+public abstract class OrderBaseTest {
 }
